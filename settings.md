@@ -1,8 +1,10 @@
 # Изменения файла settings.py
 
+### в вверху файла прописываем import os
+
 ### После строки STATIC_URL = "static/" нужно дополнить код:
 
-#### кула складывать статику (css, js и прочее)
+#### Куда складывать статику (css, js и прочее)
     STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 #### url доступа к загруженым пользователями файлам.
@@ -11,7 +13,7 @@
 #### папка куда будут складываться загруженный пользователями контент 
     MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-#### утилиты, которые не трубкют нашего вмешательства, улучшают работу статики
+#### утилиты, которые не требуют нашего вмешательства, улучшают работу статики
     STATICFILES_FINDERS = [
         "django.contrib.staticfiles.finders.FileSystemFinder",
         "django.contrib.staticfiles.finders.AppDirectoriesFinder",
