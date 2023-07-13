@@ -2,4 +2,4 @@
     pip install django
 
 ## Установка конкретной версии
-    pip install --upgrade django== "версия"
+    pip install --upgrade django==версия
