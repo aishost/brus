@@ -9,3 +9,6 @@
     
 ## Создание супер пользователя
     python manage.py createsuperuser
+
+## django-crispy-forms https://django-crispy-forms.readthedocs.io/en/latest/install.html
+    pip install django-crispy-forms
