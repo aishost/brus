@@ -6,6 +6,9 @@
 
 ## Старт проекта
     django-admin startproject Название проекта
+
+## Создание нового приложения внутри проекта
+    python manage.py startapp Название приложения
     
 ## Создание супер пользователя
     python manage.py createsuperuser
